@@ -1,0 +1,52 @@
+.navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.logo:hover {
+    transform: scale(1.07);
+}
+
+.logo span {
+    text-shadow: 0 0 25px var(--main-color);
+    color: var(--main-color);
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-right: 15%;
+}
+
+.navbar-menu a {
+    color: var(--text-color);
+    margin-left: 20%;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in;
+}
+
+.navbar-menu a:hover,
+.navbar-menu a.active {
+    transform: scale(1.1);
+    border-bottom: 2px solid var(--main-color);
+    color: var(--main-color);
+}
