@@ -8,7 +8,7 @@ const Home = () => {
             <div className="main-content">
                 <div className="intro">
                     <h1>Full-Stack Developer</h1>
-                    <h3>Conhecimentos em<span></span></h3>
+                    <h3>Conhecimentos em <span className="animation"></span></h3>
                     <div><p>Olá! Sou Robson Ribeiro, um desenvolvedor Full-Stack apaixonado por tecnologia.
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>

@@ -54,6 +54,8 @@
 
 .intro h3 {
     font-size: 3rem;
+    font-weight: 600;
+    min-width: 280px;
 }
 
 .intro div {
@@ -91,6 +93,7 @@
     font-size: 3rem;
     position: relative;
     top: 4px;
+    cursor: pointer;
 }
 
 .tech-stack span {
@@ -105,4 +108,77 @@
     min-width: 400px;
 }
 
+.animation {
+    position: relative;
+}
 
+.animation::before {
+    content: "Web Developer";
+    color: var(--main-color);
+    animation: words 20s infinite;
+}
+
+.animation::after {
+    content: "";
+    background-color: var(--bg-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--bg-color);
+    right: -8px;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid var(--main-color);
+    }
+}
+
+@keyframes words {
+    0%,
+    20% {
+        content: "Back-End Development";
+    }
+    21%,
+    40% {
+        content: "Front-End Development";
+    }
+    41%,
+    60% {
+        content: "SQL and noSQL Databases";
+    }
+    61%,
+    80% {
+        content: "Application Security";
+    }
+    81%,
+    100% {
+        content: "Software Testing";
+    }
+}
+@keyframes typing {
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
+}
