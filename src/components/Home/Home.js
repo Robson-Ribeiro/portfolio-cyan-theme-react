@@ -1,6 +1,5 @@
 import React from "react";
 import './Home.css';
-import proggamingPng from "../../images/programming.png";
 
 const Home = () => {
     return (
