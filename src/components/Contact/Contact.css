@@ -52,6 +52,15 @@ h1 span {
 .message-e-submit textarea {
     width: 45rem;
     height: 26rem;
+}
+
+.credentials input {
+    width: 45rem;
+    height: 6rem;
+}
+
+.message-e-submit textarea,
+.credentials input {
     padding: 10px;
     border-radius: 10px;
     background: var(--bg-color);
@@ -61,16 +70,9 @@ h1 span {
     font-size: 2rem;
 }
 
-input {
-    width: 45rem;
-    height: 6rem;
-    padding: 10px;
-    border-radius: 10px;
-    background: var(--bg-color);
-    border: 2px solid var(--main-color);
-    outline: none;
-    color: white;
-    font-size: 2rem;
+.message-e-submit textarea:focus,
+.credentials input:focus {
+    box-shadow: 0 0 10px 2px var(--main-color);
 }
 
 .message-e-submit button {
