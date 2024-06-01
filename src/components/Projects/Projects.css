@@ -1,0 +1,37 @@
+.projects {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--second-bg-color);
+}
+
+.projects h1 {
+    font-size: 8rem;
+    text-align: center;
+}
+
+.projects h1 span {
+    text-shadow: 0 0 15px var(--main-color);
+    color: var(--main-color);
+}
+
+.projects-showcase {
+    width: 80%;
+    min-height: 70vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 5%;
+}
+
+.project-card-link {
+    height: 70%;
+    width: 25%;
+    text-decoration: none;
+}

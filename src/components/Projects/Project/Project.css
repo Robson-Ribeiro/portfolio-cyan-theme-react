@@ -1,0 +1,13 @@
+.project-card {
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-radius: 15px;
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
