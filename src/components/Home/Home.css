@@ -26,17 +26,11 @@
     width: 450px;
     border-radius: 50%;
     border: 1px solid var(--main-color);
-    background-image: url("../../images/programer.avif");
+    background-image: url('../../../public/programer.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 0 25px var(--main-color);
-}
-
-.round-image img {
-    height: 350px;
-    width: auto;
-    
 }
 
 .intro {
