@@ -96,3 +96,41 @@ h1 span {
 .message-e-submit button:hover {
     transform: scale(1.1);
 }
+
+.feedback {
+    position: relative;
+    top: -20%;
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 13px 15px;
+    border-radius: 15px;
+}
+
+.succesStatus{
+    background: rgb(26, 179, 26);
+}
+
+.failureStatus {
+    background: rgb(235, 76, 76);
+}
+
+.feedback button {
+    color: var(--main-color);
+    height: 0px;
+    background: none;
+    box-shadow: 0 0 15px var(--main-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 4rem;
+    position: relative;
+    top: -9px;
+    transition: all 0.3s ease;
+}
+
+.feedback button:hover {
+    transform: scale(1.1);
+}
