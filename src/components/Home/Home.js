@@ -10,8 +10,8 @@ const Home = () => {
                     <h3>Conhecimentos em <span className="animation"></span></h3>
                     <div><p>Olá! Sou Robson Ribeiro, um desenvolvedor Full-Stack apaixonado por tecnologia.
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div className="tech-stack">
+                </div>
+                <div className="tech-stack">
                 <p>Tecnologias que eu uso <span>|</span></p>
                 <div>
                 <svg
@@ -73,7 +73,6 @@ const Home = () => {
             </div>
                 <div className="round-image"></div>
             </div>
-            
         </div>
     )
 }
